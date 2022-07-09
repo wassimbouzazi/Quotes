@@ -1,5 +1,5 @@
-const FIREBASE_DOMAIN = 'https://food-app-react-27152-default-rtdb.firebaseio.com';
-
+// Add your Firebase DOMAIN.
+const FIREBASE_DOMAIN = "";
 export async function getAllQuotes() {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
   const data = await response.json();
